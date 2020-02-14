@@ -10,6 +10,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, arial, sans-serif;
     color: #111;
     padding: 24px 24px 0;
+    scroll-behavior: smooth;
 }
 
 /*
@@ -129,7 +130,9 @@ hr {
 a {
     color: royalblue;
     transition: all .1s ease-in-out;
+    
 }
+
 /*LoVe before HaTe 
 visited before hover*/
 a:visited,
@@ -139,6 +142,21 @@ a:active {
 a:hover,
 a:focus {
     color: crimson;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+th {
+    text-align: left;
+}
+
+th,
+td {
+    padding: 4px 8px;
+    border-bottom: 1px solid gainsboro;
 }
 
 /*
@@ -167,6 +185,13 @@ a:focus {
         font-size: 58px;
         line-height: 64px;
     }
+
+    h2{
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+
 }
 
 /* Large devices (landscape tablets, desktops, 992px and up) */
@@ -179,3 +204,6 @@ a:focus {
 
 }
 
+.odd {
+    background-color: whitesmoke;
+}
